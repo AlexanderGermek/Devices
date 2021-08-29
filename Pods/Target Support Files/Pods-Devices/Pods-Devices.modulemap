@@ -1,0 +1,6 @@
+framework module Pods_Devices {
+  umbrella header "Pods-Devices-umbrella.h"
+
+  export *
+  module * { export * }
+}
