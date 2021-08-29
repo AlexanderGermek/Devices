@@ -20,7 +20,7 @@ class LoadErrorView: UIView {
     let errorLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont(name: "Roboto-Regular", size: 24)
-        label.numberOfLines = 2
+        label.numberOfLines = 0
         label.lineBreakMode = .byWordWrapping
         label.textAlignment = .center
         label.textColor = .white
@@ -65,7 +65,7 @@ class LoadErrorView: UIView {
         
         errorLabel.snp.makeConstraints { (make) in
             make.leading.trailing.top.equalToSuperview()
-            make.height.equalTo(80)
+            make.height.equalTo(140)
         }
         tryAgainButton.snp.makeConstraints { (make) in
             make.width.equalTo(127)
