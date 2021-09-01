@@ -252,7 +252,7 @@ extension DevicesViewController: UICollectionViewDelegate, UICollectionViewDataS
 extension DevicesViewController: LoadErrorViewDelegate {
     
     func didTapTryAgainButton() {
-        
+        opacityView.imageView.rotate(duration: 0.6)
         fetchDevices()
     }
 }

@@ -24,6 +24,7 @@ class LoadErrorView: UIView {
         label.lineBreakMode = .byWordWrapping
         label.textAlignment = .center
         label.textColor = .white
+        label.adjustsFontSizeToFitWidth = true
         return label
     }()
     
